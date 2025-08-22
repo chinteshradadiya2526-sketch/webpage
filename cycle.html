@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cycle Showroom - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f1f1;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #2b7a78;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+        nav {
+            background: #3aafa9;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+        }
+        .showroom-title {
+            color: #2b7a78;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .intro {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .cycles {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 24px;
+            margin-top: 30px;
+        }
+        .cycle {
+            background: #def2f1;
+            border-radius: 7px;
+            padding: 20px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+            text-align: center;
+        }
+        .cycle img {
+            width: 120px;
+            margin-bottom: 12px;
+        }
+        .cycle-name {
+            font-weight: bold;
+            color: #17252a;
+        }
+        .price {
+            color: #3aafa9;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+        footer {
+            background: #2b7a78;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cycle Showroom</h1>
+        <p>Find your perfect ride!</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="showroom-title">Welcome to Our Cycle Showroom</div>
+        <div class="intro">
+            Discover a wide range of cycles for all ages and styles. Whether you’re a professional rider or a casual enthusiast, we have something for everyone!
+        </div>
+        <div class="cycles">
+            <div class="cycle">
+                <img src="https://cdn-icons-png.flaticon.com/512/3345/3345397.png" alt="Mountain Bike">
+                <div class="cycle-name">Mountain Bike</div>
+                <div>Perfect for off-road adventures.</div>
+                <div class="price">$299</div>
+            </div>
+            <div class="cycle">
+                <img src="https://cdn-icons-png.flaticon.com/512/482/482944.png" alt="Road Bike">
+                <div class="cycle-name">Road Bike</div>
+                <div>Lightweight and fast for city riding.</div>
+                <div class="price">$399</div>
+            </div>
+            <div class="cycle">
+                <img src="https://cdn-icons-png.flaticon.com/512/125/125070.png" alt="Kids Bike">
+                <div class="cycle-name">Kids Bike</div>
+                <div>Safe and fun for children.</div>
+                <div class="price">$149</div>
+            </div>
+            <div class="cycle">
+                <img src="https://cdn-icons-png.flaticon.com/512/3345/3345398.png" alt="Hybrid Bike">
+                <div class="cycle-name">Hybrid Bike</div>
+                <div>Versatile for both city and trail.</div>
+                <div class="price">$259</div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Cycle Showroom. All rights reserved.
+    </footer>
+</body>
+</html>
